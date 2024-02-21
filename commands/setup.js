@@ -56,7 +56,7 @@ async function closeTicket(interaction, ticketChannel) {
     .setTitle('🔴 Ticket Closed')
         .setColor('#ff0000')
   .setDescription(`**Your ticket has been closed successfully.** \n\n- If you have any further questions, feel free to open a new ticket.`)
-        .setImage('https://cdn.discordapp.com/attachments/1209503146485747723/1209507551184556054/2.png?ex=65e72caf&is=65d4b7af&hm=30b0b243fe24521a08f0cc49025bc28ba0bf78be82a1d02013c0c27c190d9ada&')
+        .setImage('https://media1.tenor.com/m/SlPKYifDqGUAAAAC/naruto-anime.gif')
     .setFooter({ text: 'Thank You for Using Our Ticket Service!', iconURL:'https://cdn.discordapp.com/attachments/1209503146485747723/1209503206871400458/5620-ticket.png?ex=65e728a4&is=65d4b3a4&hm=93bae44d478db895734ef9dfe86325b453e905c64101a20161075b153b91490d&'})
      .setTimestamp();
 await ticketOwner.send({ embeds: [confirmationEmbed] });
@@ -160,7 +160,7 @@ async function createTicket(interaction, ticketChannel) {
         .setTitle('✅ Ticket Opened')
             .setColor('#2bff00')
       .setDescription(` **Your ticket number is ${ticketNumber} ** \n\n-  Our team will assist you shortly. Please hang tight!\n- Feel free to mention Support team for any urgent assistance.`)
-       .setImage('https://cdn.discordapp.com/attachments/1209503146485747723/1209507551683805204/1.png?ex=65e72caf&is=65d4b7af&hm=3eb4ab1565f7818bf94cdc37343be288cd7ae1792197374ee8d43a82d18cd526&')
+       .setImage('https://media1.tenor.com/m/gAqZi2bDBK0AAAAd/naruto-naruto-uzumaki.gif')
     .setFooter({ text: 'Your satisfaction is our priority! ', iconURl:'https://cdn.discordapp.com/attachments/1209503146485747723/1209503207685103677/8917-blurple-ticket.png?ex=65e728a4&is=65d4b3a4&hm=dc0e876211f155590f3d35e543f9d205acee0df356c7d13b07ad675051bc82bf&'})
      .setTimestamp();
     await ticketOwner.send({ embeds: [confirmationEmbed] });
