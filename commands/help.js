@@ -30,10 +30,10 @@ module.exports = {
          .setColor('#0099ff')
       .setTitle('🎫 Ticket Bot Help')
       .setDescription('Welcome to the Ticket Bot!\n\n- Here are the available commands:\n\n' +
-        '**/setup :** Set up the ticket system for your server.\n' +
-        '**/reset :** Clear the setup done to server.\n' +
-        '**/ping :** check bot latencey.\n' +
-        '**/support :** Display support server info');
+        '**Setup :** Set up the ticket system for your server.\n' +
+        '**Reset :** Clear the setup done to server.\n' +
+        '**Ping :** Check bot latencey.\n' +
+        '**Support :** Display support server info');
 
       return interaction.reply({ embeds: [embed] });
     } catch (e) {
