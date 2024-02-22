@@ -23,7 +23,7 @@ console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}
 
 const serverCount = client.guilds.cache.size;
 setInterval(() => client.user.setActivity({ 
-  name:`Ticket Suppourt 🎫`, 
+  name:`Ticket Support 🎫`, 
   type: ActivityType.Watching }), 10000);
 client.errorLog = config.errorLog
   
